@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f59bc"
+    tools:context="buckero2reynolb6.student.computing.dcu.ie.countdownthegame.HomeActivity">
+
+
+    <com.gigamole.library.PulseView
+        android:id="@+id/PV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pv_alpha="70"
+        app:pv_color="#FFF"
+        app:pv_icon="@drawable/clockimgtrans"
+        app:pv_icon_height="200sp"
+        app:pv_icon_width="200sp"
+        app:pv_measure="height"
+        app:pv_spawn_period="500"
+        app:pv_interpolator="@android:anim/linear_interpolator" />
+
+
+</android.support.constraint.ConstraintLayout>

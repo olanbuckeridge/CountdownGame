@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f59bc"
+    tools:context="buckero2reynolb6.student.computing.dcu.ie.countdownthegame.FinalScreen">
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/answer"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/totalTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="@string/total_score"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/totalTally"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalTXT" />
+
+    <ImageButton
+        android:id="@+id/homeBtn"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/colorPrimary"
+        android:scaleType="fitXY"
+        android:src="@drawable/submit"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/submitScoreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/submitScoreBtn"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/showLeaderboardBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/showLeaderboardBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/leaderboards"
+        app:isDarkTheme="true"
+        app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/signInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/sign_in"
+        app:isDarkTheme="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/signOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/sign_out"
+        app:isDarkTheme="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

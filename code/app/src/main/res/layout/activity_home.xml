@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2f59bc"
+    tools:context="buckero2reynolb6.student.computing.dcu.ie.countdownthegame.HomeActivity">
+
+
+    <com.gigamole.library.PulseView
+        android:id="@+id/PV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pv_alpha="70"
+        app:pv_color="#00bfff"
+        app:pv_icon="@drawable/clockimgtrans"
+        app:pv_icon_height="200sp"
+        app:pv_icon_width="200sp"
+        app:pv_interpolator="@android:anim/linear_interpolator"
+        app:pv_measure="height"
+        app:pv_spawn_period="1000" />
+
+    <TextView
+        android:id="@+id/Letter1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border"
+        android:hapticFeedbackEnabled="true"
+        android:text="C"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Letter2"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border"
+        android:text="O"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Letter1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Letter3"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border"
+        android:text="U"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Letter2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Letter4"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border"
+        android:text="N"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Letter3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Letter5"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border"
+        android:text="T"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Letter4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Letter6"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border"
+        android:text="D"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Letter5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Letter7"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border"
+        android:text="O"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Letter6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Letter8"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border"
+        android:text="W"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Letter7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Letter9"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/border"
+        android:text="N"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Letter8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/singlePlayerBtn"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="80dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/singleplayer"
+        android:scaleType="fitXY"
+        android:src="@drawable/singleplayericon"
+        app:layout_constraintBottom_toTopOf="@+id/showLeaderboardBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/multiPlayerBtn"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignStart="@+id/signInBtn"
+        android:layout_below="@+id/signInBtn"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="80dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/multiplayerbtn"
+        android:scaleType="fitXY"
+        android:src="@drawable/multiplayericon"
+        app:layout_constraintBottom_toTopOf="@+id/showLeaderboardBtn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/showLeaderboardBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/leaderboards"
+        app:isDarkTheme="true"
+        app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/signOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/sign_out"
+        app:isDarkTheme="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/signInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/sign_in"
+        app:isDarkTheme="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
